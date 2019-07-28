@@ -1,0 +1,210 @@
+/* html sections */
+
+body {
+  font-family: "Montserrat";
+  background-color: #f1d6ab;
+}
+
+br {
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Montserrat-Black';
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
+li {
+  list-style: none;
+  margin: 0.5rem 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem 1rem;
+  color: blue;
+  border; 1px solid #000;
+  border-radius: 100%;
+  transition: .5s;
+  text-align: center;
+}
+
+section {
+  background-color: #000;
+}
+
+/* Navigation bar */
+.navbar {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+/* buttons */
+.whatToExpect {
+  position: relative;
+  left: 22rem;
+  top: 2rem;
+}
+
+.mapNdirections {
+  background-color: #000;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* circles */
+.before {
+  background-color: #3a9679;
+  border-radius: 100%;
+  color: white;
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.during {
+  background-color: #1b7fbd;
+  border-radius: 100%;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.after {
+  background-color: #a773c3;
+  border-radius: 100%;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-link {
+  list-style: none;
+  margin: 0.5rem 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem 1rem;
+  color: blue;
+  border; 1px solid #000;
+  border-radius: 100%;
+  transition: .5s;
+  text-align: center;
+}
+
+/* pictures */
+.home-pic {
+  width: 50%;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.welcome-home-pic {
+  width: 50%;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* containers */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.footer {
+  background-color: #44000d;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  padding: 50px -0 20px;
+  line-height: 1;
+}
+
+.team {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.WhoAreWe {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.getPluggedIn {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.ministries {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+  }
+
+.messages {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.give {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.maps {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+#circles {
+  background-color: #000;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+
+#home-pic {
+  background-color: #44000d;
+}
+
+#values {
+  background-color: #f1d6ab;
+  padding: 7% 15%;
+}
+
+#Welcome-Home {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+//*font-family: 'Montserrat', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Lobster Two', cursive;
+* //
