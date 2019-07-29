@@ -1,0 +1,46 @@
+<i class="fab fa-facebook-f"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fas fa-envelope-open-text"></i>
+
+3x or 5x etc.
+
+<head>
+  <!-- reference your copy Font Awesome here (from our Kits or by hosting yourself) -->
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+
+  <!-- custom styling for all icons -->
+  i.fas,
+  i.fab {
+    border: 1px solid red;
+  }
+
+  <!-- custom styling for specific icons -->
+  .fa-fish {
+    color: salmon;
+  }
+
+  .fa-frog {
+    color: green;
+  }
+
+  .fa-user-ninja.vanished {
+    opacity: 0.0;
+  }
+
+  .fa-facebook {
+    color: rgb(59, 91, 152);
+  }
+</head>
+<body>
+  <i class="fas fa-fish"></i>
+  <i class="fas fa-frog"></i>
+  <i class="fas fa-user-ninja vanished"></i>
+  <i class="fab fa-facebook"></i>
+</body>
+
+Writing Custom CSS with our SVG + JS framework
+When using our SVG framework, remember that Font Awesome-based <i> DOM elements are replaced with new <svg> elements by default. Be sure that your css rules target the right elements.
