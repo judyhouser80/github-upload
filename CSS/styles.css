@@ -10,31 +10,14 @@ br {
 }
 
 h1 {
-  font-family: 'Montserrat-Black';
+  font-family: 'Montserrat-Bold';
   font-size: 3rem;
   line-height: 1.5;
   text-align: center;
 }
 
-h2 {
+h2, h3, h4, h5 {
   font-family: "Montserrat-Bold";
-  text-align: center;
-}
-
-h3 {
-  font-family: "Montserrat-Bold";
-}
-
-li {
-  list-style: none;
-  margin: 0.5rem 1rem;
-  display: inline-block;
-  font-size: 2rem;
-  padding: 1rem 1rem;
-  color: blue;
-  border; 1px solid #000;
-  border-radius: 100%;
-  transition: .5s;
   text-align: center;
 }
 
@@ -98,13 +81,9 @@ section {
   text-align: center;
 }
 
-.social-icon {
-  margin: 20px 10px;
-}
-
 /* pictures */
 .home-pic {
-  width: 75%;
+  width: 100%;
   padding: 7% 15%;
   text-align: center;
 }
@@ -115,36 +94,12 @@ section {
   text-align: center;
 }
 
-/* containers */
+/* containers/classes */
 .container-fluid {
   padding: 3% 15%;
 }
 
-.team {
-  background-color: #f1d6ab;
-  font-family: 'PT Serif', serif;
-  padding: 7% 15%;
-}
-
-.WhoAreWe {
-  background-color: #f1d6ab;
-  font-family: 'PT Serif', serif;
-  padding: 7% 15%;
-}
-
 .getPluggedIn {
-  background-color: #f1d6ab;
-  font-family: 'PT Serif', serif;
-  padding: 7% 15%;
-}
-
-.ministries {
-  background-color: #f1d6ab;
-  font-family: 'PT Serif', serif;
-  padding: 7% 15%;
-  }
-
-.messages {
   background-color: #f1d6ab;
   font-family: 'PT Serif', serif;
   padding: 7% 15%;
@@ -157,6 +112,34 @@ section {
 }
 
 .maps {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.messages {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.ministries {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+  }
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.team {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
+.WhoAreWe {
   background-color: #f1d6ab;
   font-family: 'PT Serif', serif;
   padding: 7% 15%;
@@ -205,10 +188,6 @@ section {
     text-align: center;
     position: static;
   }
-}
-
-@media (max-width: 510px) {
-
 }
 
 //*font-family: 'Montserrat', sans-serif;
