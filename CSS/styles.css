@@ -1,5 +1,4 @@
 /* html sections */
-
 body {
   font-family: "Montserrat";
   background-color: #f1d6ab;
@@ -58,27 +57,51 @@ section {
 
 /* circles */
 .before {
-  background-color: #3a9679;
-  border-radius: 100%;
-  color: white;
-  padding: 7% 10%;
-  text-align: center;
+  width: 50%;
+  display: inline;
+  position: static;
 }
 
 .during {
-  background-color: #1b7fbd;
-  border-radius: 100%;
-  color: white;
-  padding: 7% 15%;
-  text-align: center;
+  width: 50%;
+  display: inline;
+  position: static;
 }
 
 .after {
-  background-color: #a773c3;
-  border-radius: 100%;
-  color: white;
-  padding: 7% 15%;
-  text-align: center;
+  width: 50%;
+  display: inline;
+  position: static;
+}
+
+.bounce {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  margin-top: -25px;
+  margin-left: -25px;
+  height: 50px;
+  width: 50px;
+  background: red;
+  -webkit-animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    bottom: 5px;
+  }
+
+  25%, 75% {
+    bottom: 15px;
+  }
+
+  50% {
+    bottom: 20px;
+  }
+
+  100% {
+    bottom: 0;
+  }
 }
 
 /* pictures */
@@ -111,6 +134,12 @@ section {
   padding: 7% 15%;
 }
 
+.googleMaps {
+  background-color: #f1d6ab;
+  font-family: 'PT Serif', serif;
+  padding: 7% 15%;
+}
+
 .maps {
   background-color: #f1d6ab;
   font-family: 'PT Serif', serif;
@@ -127,7 +156,7 @@ section {
   background-color: #f1d6ab;
   font-family: 'PT Serif', serif;
   padding: 7% 15%;
-  }
+}
 
 .social-icon {
   margin: 20px 10px;
@@ -146,9 +175,7 @@ section {
 }
 
 #circles {
-  background-color: #000;
-  font-family: 'PT Serif', serif;
-  text-align: center;
+  background-color: #44000d;
 }
 
 #footer {
@@ -160,6 +187,12 @@ section {
 
 #home-pic {
   background-color: #44000d;
+}
+
+#carouselExampleSlidesOnly {
+  height: 900px;
+  width: auto;
+  overflow: hidden;
 }
 
 #values {
@@ -186,6 +219,24 @@ section {
     width: 50%;
     padding: 7% 15%;
     text-align: center;
+    position: static;
+  }
+
+  .before {
+    width: 50%;
+    display: inline;
+    position: static;
+  }
+
+  .during {
+    width: 50%;
+    display: inline;
+    position: static;
+  }
+
+  .after {
+    width: 50%;
+    display: inline;
     position: static;
   }
 }

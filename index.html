@@ -18,7 +18,7 @@
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <title>MVC - Welcome Home!</title>
 
 </head>
@@ -29,7 +29,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">
           <img src="images/SmallLogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          Maple View
+          Maple View Church
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,12 +82,23 @@
 
   <!-- Home Section -->
   <div class="container-fluid" id="home-pic">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <img class="home-pic" src="images/front.jpeg" alt="">
-      </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/front.jpeg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/coffee.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+    <img class="d-block w-100" src="images/bboard.jpg" alt="third slide">
+  </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/inside_o.jpg" alt="fourth slide">
     </div>
   </div>
+</div>
+
 
   <!-- Welcome section -->
   <div class="container-fluid" id="Welcome-Home">
@@ -107,37 +118,20 @@
   </div>
 
   <!-- circles -->
-  <div class="container-fluid" id="circles">
+  <div class="container-fluid bounce" id="circles">
     <div class="row">
-      <div class="col-lg-3 col-md-6">
-      </div>
-      <div class="col-lg-2 col-md-6 before">
-        <h1><strong>BEFORE</strong></h1>
-        <p>Come as you are!</p>
-        <p>Have a curosity about who God is.</p>
-        <p>Come ready to receive!</p>
-        <p>We have a coffee station!</p>
+
+      <div class="col-lg-4 before">
+        <img class="animated bounceInDown" src="images/blue2.png" alt="">
       </div>
 
-      <div class="col-lg-2 col-md-6 during">
-        <h1><strong>DURING</strong></h1>
-        <p>Great contemporary worship music</p>
-        <p>People ready to pray for your needs</p>
-        <p>A relevant biblical message for today</p>
-        <p>Taste the goodness of God</p>
-      </div>
+      <div class="col-lg-4 during">
+        <img class="animated bounceInDown delay-1s" src="images/green2.png" alt="">
+        </div>
 
-      <div class="col-lg-2 col-md-6 after">
-        <h1><strong>AFTER</strong></h1>
-        <p>Meet Pastor Tap</p>
-        <p>Get to meet your new family</p>
-        <p>Get questions answered</p>
-        <p>Find ways to join in that interest you</p>
+      <div class="col-lg-4 after">
+        <img class="animated bounceInDown delay-2s" src="images/purple2.png" alt="">
       </div>
-
-      <div class="col-lg-3">
-      </div>
-
     </div>
   </div>
 
@@ -165,8 +159,7 @@
         Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It
         helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by
         addition or removal, so to deliberately render its content nonsensical; it's not genuine, correct, or comprehensible Latin anymore. While lorem ipsum's still resembles classical Latin, it actually has no meaning whatsoever. As Cicero's
-        text
-        doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.
+        text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.
       </div>
       <div class="col-lg-4 col-md-6">
         <h1><strong>God likes being with me</strong></h1>
@@ -189,6 +182,7 @@
     <a class="social-icon" href="https://www.instagram.com/mvcburton/">Instagram</a>
     <a class="social-icon" href="mailto:mapleview@mapleview.com">Email us!</a>
   </footer>
+  <script src="index.js" charset="utf-8"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

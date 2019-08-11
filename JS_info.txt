@@ -1,0 +1,214 @@
+to get a tweet type count:  JS
+
+var tweet = prompt("Compose your tweet:");
+var tweetCount = tweet.length;
+alert("You have written " + tweetCount + " characters, you have " + (140 - tweetCount) + " characters remaining.");
+
+or
+
+var tweet = prompt("Compose your tweet:");
+var tweetCount = tweet.length;
+alert("You have written " + tweetCount + " characters, you have " + (140 - tweetCount) + " characters remaining.");
+
+
+Slice function
+
+var name = "Judy";
+name.slice(2,5);
+
+(answer "DY")
+
+cutting the tweet:
+
+var tweet = prompt("Compose your tweet:");
+var tweetUnder140 = tweet.slice(0,140);
+alert(tweetUnder140);
+
+or
+
+alert(prompt("Compose your tweet:").slice(0,140));
+
+prompt("What is your name");
+
+//1 Create a var that stores the name that user enters via prompt
+//2 Capitalize the first letter of their name and the rest of the letters are lower case
+//3 We use the capped version of their name to greet them using an alert.
+
+
+//1 Create a var that stores the name that user enters via prompt
+var name = prompt("What is your name?");
+
+//2 Capitalize the first letter of their name
+//a isolate the first character
+var firstChar = name.slice(0,1);
+
+//b turn the first char to upper case
+var upperCaseFirstChar = firstChar.toUpperCase();
+
+//c isolate the rest of the name
+var restOfName = name.slice(1,name.length);
+
+//d Change the rest of the name to lower case
+restOfName = restOfName.toLowerCase();
+
+//e concat the first char with the rest
+var capitalizedName = upperCaseFirstChar + restOfName;
+
+//3 We use the capped version of their name to greet them using an alert.
+alert("Hello, " + capitalizedName);
+
+
+How old is your dog in human years?
+
+var dogAge = prompt("How old is your dog?");
+var humanAge = (dogAge -2) * 4 + 21;
+alert("Your puppy is " + humanAge + " human years old");
+
+round down math in JS
+
+function getMilk(money) {
+
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+
+  var numberOfBottles = Math.floor(money / 1.5);
+
+  console.log("buy " + numberOfBottles + " bottles of milk");
+
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+  return money % 1.5;
+}
+getMilk(5);
+
+
+
+function bmiCalculator(weight, height) {
+    var bmi= weight / (height * height);
+    return bmi;
+}
+var bmi = bmiCalculator(65, 1.8);
+console.log(bmi);
+
+or
+
+function bmiCalculator(weight, height) {
+    var bmi= weight / Math.pow(height, 2);
+    return Math.round(bmi);
+
+}
+
+var bmi = bmiCalculator(65, 1.8);
+console.log(bmi);
+
+var n = Math.random(); //generates a random number.  16 decimal place number.  between 0 to 0.9999999999999999
+
+it never ever reaches 1.//
+
+A love Calculator
+
+prompt("What is your name?");
+prompt("What is your crush's name?");
+
+var loveScore = Math.random() * 100;
+    loveScore = Math.floor(loveScore) * 1;
+
+ if (loveScore > 70) {
+    alert("Your love score is " + loveScore + "%.  You are a match made in Heaven!  But your relationship will still require hard work!");
+} else {
+    alert("Your love score is " + loveScore + "%");
+}
+
+or
+
+prompt("What is your name?");
+prompt("What is your crush's name?");
+
+var loveScore = Math.random() * 100;
+    loveScore = Math.floor(loveScore) * 1;
+
+ if (loveScore > 70) {
+    alert("Your love score is " + loveScore + "%.  You are a match made in Heaven!  But your relationship will still require hard work!");
+}
+ if (loveScore > 30 && loveScore <= 70) {
+      alert("Your love score is " + loveScore + "%.  This may or may not work for you in real life, but give it all you have and see what God says!");
+}
+ if (loveScore <= 30) {
+      alert("Your love score is " + loveScore + "%.  This is a relationship created in the depths of hell - RUN!");
+}
+
+BMI calulator if/else
+
+function bmiCalculator (weight, height) {
+    var bmi = Math.round(weight / Math.pow(height, 2));
+    var interpretation;
+
+    if(bmi < 18.5) {
+        interpretation = "Your BMI is " + bmi + ", so you are underweight.";
+    } else if (bmi > 24.9) {
+        interpretation = "Your BMI is " + bmi + ", so you are overweight.";
+    } else {
+        interpretation = "Your BMI is " + bmi + ", so you have a normal weight.";
+    }
+
+    return interpretation;
+}
+
+console.log(bmiCalculator(6, 2));
+
+guest list checker
+
+var guestList = ["Judy", "Wes", "Ari", "Jack", "Dani", "Ben", "Christi", "DJ", "Ariel", "Calista", "Hope", "Ezra"];
+
+var guestName = prompt("What is your name?");
+
+if (guestList.includes(guestName)) {
+
+    alert("Welcome!  Come in and join our party");
+
+}  else {
+    alert("I'm sorry but you are not invited.  Bye!");
+
+}
+
+<img class="fl-photo-img wp-image-1210" src="https://mylegacylife.com/wp-content/uploads/sites/97/2018/09/beforecircle1.png" alt="beforecircle1" itemprop="image" srcset="https://mylegacylife.com/wp-content/uploads/sites/97/2018/09/beforecircle1.png 1024w, https://mylegacylife.com/wp-content/uploads/sites/97/2018/09/beforecircle1-150x150.png 150w, https://mylegacylife.com/wp-content/uploads/sites/97/2018/09/beforecircle1-300x300.png 300w, https://mylegacylife.com/wp-content/uploads/sites/97/2018/09/beforecircle1-768x768.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" title="beforecircle1">
+
+
+Calculator:
+
+function add(num1, num2) {
+  return num1 + num2;
+}
+
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+
+function divide(num1, num2) {
+  return num1 / num2;
+}
+
+function subtract(num1, num2) {
+  return num1 - num2;
+}
+
+function calculator(num1, num2, operator) {
+  return operator(num1, num2);
+}
+
+calculator(4,5,multiply);
+calculator(10,100,divide);
